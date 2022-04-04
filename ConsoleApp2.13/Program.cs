@@ -24,7 +24,6 @@ namespace ConsoleApp2._13
             int evasionHeal = random.Next(30, 40);
             int evasionManaCost = random.Next(60, 80);
 
-
             int bossHealth = random.Next(800, 1100);            
             int bossKickDmage = random.Next(60, 90);
 
@@ -103,8 +102,7 @@ namespace ConsoleApp2._13
                         else
                         {
                             Console.WriteLine("Totem is not invoked");
-                        }
-                        
+                        }                        
                         break;
 
                     case 5:
@@ -127,7 +125,6 @@ namespace ConsoleApp2._13
                         {
                             Console.WriteLine("Not enought mana");
                         }
-
                         break;
 
                     case 6:
@@ -142,7 +139,6 @@ namespace ConsoleApp2._13
                         {
                             Console.WriteLine("Not enought mana");
                         }
-
                         break;
 
                     default:
